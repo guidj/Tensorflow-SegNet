@@ -4,7 +4,8 @@ from tensorflow.python.framework import dtypes
 import os, sys
 import numpy as np
 import math
-import Image
+#import Image
+from PIL import Image
 import skimage
 import skimage.io
 import SimpleITK as sitk

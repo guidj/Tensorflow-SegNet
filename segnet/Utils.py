@@ -1,5 +1,7 @@
 import tensorflow as tf
-import Image
+
+#import Image
+from PIL import Image
 import numpy as np
 
 def writeImage(image, filename):

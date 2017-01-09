@@ -1,25 +1,13 @@
-import tensorflow as tf
-from tensorflow.python.framework import ops
-from tensorflow.python.framework import dtypes
+import time
+from datetime import datetime
+from math import ceil
+
+from tensorflow.python.ops import gen_nn_ops
+from tensorflow.python.ops import math_ops
 from tensorflow.python.ops import rnn
 from tensorflow.python.ops import variable_scope
-from tensorflow.python.ops import math_ops
-from tensorflow.python.ops import array_ops
-from tensorflow.python.ops import tensor_array_ops
 
-import os, sys
-import numpy as np
-import math
-from datetime import datetime
-import time
-import Image
-from math import ceil
-from tensorflow.python.ops import gen_nn_ops
-import skimage
-import skimage.io
-# modules
 import Utils
-import convGRU
 import convLSTM
 from Inputs import *
 
